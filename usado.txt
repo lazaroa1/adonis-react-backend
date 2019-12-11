@@ -1,0 +1,30 @@
+- npm install mysql => usar o mysql no adonis
+- adonis migration:run => criar a tabela
+- adonis make:model <nome> -m -c => criando um novo model o "-m" é com a migration e o "-c" cria automaticamente o controller
+- adonis route:list => lista todas as rotas que tem na aplicação
+- adonis serve --dev => coloca o servidor no ar
+
+
+
+# Controller:
+- index => litsa tudo
+- create => mostra o form de criação
+- store => salva o novo post
+- show => mostra um unico post
+- edit => mostra o form de edição
+- update => atualiza um item
+- destroy => deleta
+
+# Post:
+- Post.all() => pega todos os post
+- request.only() => acesso a todas as informaçãoes de quem ta fazendo a requisição
+- Post.create() => criando um novo post
+- Post.find(params.id) => buscar pelo ids
+- post.merge(data) => atualiza
+- post.save() => salva os dados
+- post. delete() => deleta
+
+# Routes:
+- Route.resource() => cria rota para todos os metodos
+
+
